@@ -194,11 +194,11 @@ public class MainActivity extends AppCompatActivity {
 
                     if (tipoSensor == 1) {
                         Log.d(ETIQUETA_LOG, "Medición de temperatura detectada");
-                        final String temperaturaText = "Temperatura: " + minorValue + " °C";
+                        final String temperaturaText = minorValue + " °C";
                         valor1.setText(temperaturaText); // Actualiza la interfaz con el valor de temperatura
                     } else if (tipoSensor == 2) {
                         Log.d(ETIQUETA_LOG, "Medición de CO2 detectada");
-                        final String co2Text = "CO2: " + minorValue + " ppm";
+                        final String co2Text = minorValue + " ppm";
                         valor2.setText(co2Text); // Actualiza la interfaz con el valor de CO2
                     } else {
                         Log.d(ETIQUETA_LOG, "Tipo de medición desconocida. Major: " + majorValue);
