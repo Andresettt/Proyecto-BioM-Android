@@ -1,0 +1,5 @@
+<map id="com.example.aplicacion_3ro.MainActivity.enviarDatosAlServidor" name="com.example.aplicacion_3ro.MainActivity.enviarDatosAlServidor">
+<area shape="rect" id="Node000001" title="Envía los datos al servidor utilizando Retrofit." alt="" coords="5,5,201,64"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service.html#ae6bbdaa3a2a2c16ce14dba99bf70aac9" title="Envía una medición al servidor." alt="" coords="249,13,467,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,32,233,32,233,37,201,37"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="com.example.aplicacion_3ro.TramaIBeacon.getTxPower" name="com.example.aplicacion_3ro.TramaIBeacon.getTxPower">
+<area shape="rect" id="Node000001" title="Obtiene el valor de la potencia de transmisión (TxPower)." alt="" coords="798,55,1008,97"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#a6353b9687cd2492ddbc64577b2d93ae6" title="Muestra la información detallada del dispositivo Bluetooth LE detectado." alt="" coords="513,47,750,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="783,79,751,79,751,73,783,73"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#ad0e00e0a3529295e25309094fd42b0d0" title="Inicia un escaneo Bluetooth LE para buscar un dispositivo con un UUID específico." alt="" coords="270,5,461,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="497,58,461,52,462,47,498,53"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#ae192ae09cccd9ed196c0f44243086f0d" title="Inicia la búsqueda de todos los dispositivos Bluetooth LE." alt="" coords="266,88,465,147"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="498,99,466,104,465,99,497,94"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#adb3146497ef39d8ff386e4535a19ecc3" title="Método invocado al pulsar el botón para buscar un dispositivo BTLE específico." alt="" coords="5,5,218,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="254,37,218,37,218,32,254,32"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#ad67f3392998dc46e153a9e4e2767f190" title="Método invocado al pulsar el botón para buscar todos los dispositivos BTLE." alt="" coords="12,88,211,147"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="250,120,211,120,211,115,250,115"/>
+</map>

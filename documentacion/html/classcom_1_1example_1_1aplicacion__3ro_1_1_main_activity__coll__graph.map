@@ -1,0 +1,13 @@
+<map id="com.example.aplicacion_3ro.MainActivity" name="com.example.aplicacion_3ro.MainActivity">
+<area shape="rect" id="Node000001" title="Clase principal de la aplicación que maneja la interfaz de usuario y la interacción con Bluetooth LE." alt="" coords="338,96,499,139"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="19,5,153,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,24,241,37,315,57,352,74,386,93,383,98,350,79,313,63,240,42,168,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="17,56,155,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,76,314,96,338,100,337,105,313,101,170,82"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="35,107,137,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="153,117,337,115,337,121,153,122"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="48,167,124,193"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="139,176,221,169,313,153,365,137,367,142,314,159,222,174,139,181"/>
+<area shape="rect" id="Node000006" href="$interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service.html" title="Interfaz para definir las llamadas HTTP de la API." alt="" coords="5,217,167,260"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="182,228,247,215,313,194,357,167,393,137,397,141,360,171,315,198,249,221,183,233"/>
+</map>

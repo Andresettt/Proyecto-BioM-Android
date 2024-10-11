@@ -1,0 +1,5 @@
+<map id="com.example.aplicacion_3ro.MainActivity.buscarEsteDispositivoBTLE" name="com.example.aplicacion_3ro.MainActivity.buscarEsteDispositivoBTLE">
+<area shape="rect" id="Node000001" title="Inicia un escaneo Bluetooth LE para buscar un dispositivo con un UUID específico." alt="" coords="266,5,457,64"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#adb3146497ef39d8ff386e4535a19ecc3" title="Método invocado al pulsar el botón para buscar un dispositivo BTLE específico." alt="" coords="5,5,218,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,37,218,37,218,32,250,32"/>
+</map>

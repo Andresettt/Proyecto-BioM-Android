@@ -1,0 +1,258 @@
+\begin{theindex}
+
+  \item {advFlags}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+  \item {advHeader}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+  \item {apiService}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{23}
+
+  \indexspace
+
+  \item {botonBuscarDispositivosBTLEPulsado}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{14}
+  \item {botonBuscarNuestroDispositivoBTLEPulsado}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{14}
+  \item {botonDetenerBusquedaDispositivosBTLEPulsado}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{15}
+  \item {BTLEAlumnos2021/Aplicacion\_3ro/app/src/main/java/com/example/aplicacion\_3ro/ApiService.java}, 
+		\hyperpage{43}
+  \item {BTLEAlumnos2021/Aplicacion\_3ro/app/src/main/java/com/example/aplicacion\_3ro/MainActivity.java}, 
+		\hyperpage{44}
+  \item {BTLEAlumnos2021/Aplicacion\_3ro/app/src/main/java/com/example/aplicacion\_3ro/Medicion.java}, 
+		\hyperpage{44}
+  \item {BTLEAlumnos2021/Aplicacion\_3ro/app/src/main/java/com/example/aplicacion\_3ro/TramaIBeacon.java}, 
+		\hyperpage{45}
+  \item {BTLEAlumnos2021/Aplicacion\_3ro/app/src/main/java/com/example/aplicacion\_3ro/Utilidades.java}, 
+		\hyperpage{45}
+  \item {buscarEsteDispositivoBTLE}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{16}
+  \item {buscarTodosLosDispositivosBTLE}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{17}
+  \item {bytesToHexString}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{35}
+  \item {bytesToInt}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{36}
+  \item {bytesToIntOK}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{36}
+  \item {bytesToLong}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{37}
+  \item {bytesToString}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{37}
+
+  \indexspace
+
+  \item {callbackDelEscaneo}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{23}
+  \item {CODIGO\_PETICION\_PERMISOS}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{23}
+  \item {com.example.aplicacion\_3ro}, \hyperpage{9}
+  \item {com.example.aplicacion\_3ro.ApiService}, \hyperpage{11}
+    \subitem {enviarMediciones}, \hyperpage{11}
+  \item {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{12}
+    \subitem {apiService}, \hyperpage{23}
+    \subitem {botonBuscarDispositivosBTLEPulsado}, \hyperpage{14}
+    \subitem {botonBuscarNuestroDispositivoBTLEPulsado}, \hyperpage{14}
+    \subitem {botonDetenerBusquedaDispositivosBTLEPulsado}, 
+		\hyperpage{15}
+    \subitem {buscarEsteDispositivoBTLE}, \hyperpage{16}
+    \subitem {buscarTodosLosDispositivosBTLE}, \hyperpage{17}
+    \subitem {callbackDelEscaneo}, \hyperpage{23}
+    \subitem {CODIGO\_PETICION\_PERMISOS}, \hyperpage{23}
+    \subitem {detenerBusquedaDispositivosBTLE}, \hyperpage{18}
+    \subitem {elEscanner}, \hyperpage{23}
+    \subitem {enviarDatosAlServidor}, \hyperpage{19}
+    \subitem {ETIQUETA\_LOG}, \hyperpage{23}
+    \subitem {inicializarBlueTooth}, \hyperpage{19}
+    \subitem {mostrarInformacionDispositivoBTLE}, \hyperpage{20}
+    \subitem {obtenerTipoDeSensor}, \hyperpage{22}
+    \subitem {onCreate}, \hyperpage{22}
+    \subitem {onRequestPermissionsResult}, \hyperpage{22}
+    \subitem {valor1}, \hyperpage{23}
+    \subitem {valor2}, \hyperpage{23}
+  \item {com.example.aplicacion\_3ro.Medicion}, \hyperpage{24}
+    \subitem {dato}, \hyperpage{26}
+    \subitem {getDato}, \hyperpage{25}
+    \subitem {getId\_tipo}, \hyperpage{25}
+    \subitem {getId\_usuario}, \hyperpage{25}
+    \subitem {id\_tipo}, \hyperpage{26}
+    \subitem {id\_usuario}, \hyperpage{26}
+    \subitem {Medicion}, \hyperpage{25}
+    \subitem {setDato}, \hyperpage{25}
+    \subitem {setId\_tipo}, \hyperpage{26}
+    \subitem {setId\_usuario}, \hyperpage{26}
+  \item {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{27}
+    \subitem {advFlags}, \hyperpage{33}
+    \subitem {advHeader}, \hyperpage{33}
+    \subitem {companyID}, \hyperpage{33}
+    \subitem {getAdvFlags}, \hyperpage{29}
+    \subitem {getAdvHeader}, \hyperpage{29}
+    \subitem {getCompanyID}, \hyperpage{29}
+    \subitem {getiBeaconLength}, \hyperpage{30}
+    \subitem {getiBeaconType}, \hyperpage{30}
+    \subitem {getLosBytes}, \hyperpage{30}
+    \subitem {getMajor}, \hyperpage{31}
+    \subitem {getMinor}, \hyperpage{31}
+    \subitem {getPrefijo}, \hyperpage{31}
+    \subitem {getTxPower}, \hyperpage{32}
+    \subitem {getUUID}, \hyperpage{32}
+    \subitem {iBeaconLength}, \hyperpage{33}
+    \subitem {iBeaconType}, \hyperpage{33}
+    \subitem {losBytes}, \hyperpage{33}
+    \subitem {major}, \hyperpage{33}
+    \subitem {minor}, \hyperpage{33}
+    \subitem {noadvFlags}, \hyperpage{34}
+    \subitem {prefijo}, \hyperpage{34}
+    \subitem {TramaIBeacon}, \hyperpage{28}
+    \subitem {txPower}, \hyperpage{34}
+    \subitem {uuid}, \hyperpage{34}
+  \item {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{34}
+    \subitem {bytesToHexString}, \hyperpage{35}
+    \subitem {bytesToInt}, \hyperpage{36}
+    \subitem {bytesToIntOK}, \hyperpage{36}
+    \subitem {bytesToLong}, \hyperpage{37}
+    \subitem {bytesToString}, \hyperpage{37}
+    \subitem {dosLongToBytes}, \hyperpage{38}
+    \subitem {stringToBytes}, \hyperpage{38}
+    \subitem {stringToUUID}, \hyperpage{39}
+    \subitem {uuidToHexString}, \hyperpage{39}
+    \subitem {uuidToString}, \hyperpage{41}
+  \item {companyID}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+
+  \indexspace
+
+  \item {dato}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{26}
+  \item {detenerBusquedaDispositivosBTLE}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{18}
+  \item {dosLongToBytes}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{38}
+
+  \indexspace
+
+  \item {elEscanner}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{23}
+  \item {enviarDatosAlServidor}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{19}
+  \item {enviarMediciones}
+    \subitem {com.example.aplicacion\_3ro.ApiService}, \hyperpage{11}
+  \item {ETIQUETA\_LOG}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{23}
+
+  \indexspace
+
+  \item {getAdvFlags}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{29}
+  \item {getAdvHeader}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{29}
+  \item {getCompanyID}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{29}
+  \item {getDato}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{25}
+  \item {getiBeaconLength}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{30}
+  \item {getiBeaconType}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{30}
+  \item {getId\_tipo}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{25}
+  \item {getId\_usuario}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{25}
+  \item {getLosBytes}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{30}
+  \item {getMajor}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{31}
+  \item {getMinor}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{31}
+  \item {getPrefijo}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{31}
+  \item {getTxPower}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{32}
+  \item {getUUID}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{32}
+
+  \indexspace
+
+  \item {iBeaconLength}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+  \item {iBeaconType}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+  \item {id\_tipo}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{26}
+  \item {id\_usuario}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{26}
+  \item {inicializarBlueTooth}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{19}
+
+  \indexspace
+
+  \item {losBytes}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+
+  \indexspace
+
+  \item {major}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+  \item {Medicion}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{25}
+  \item {minor}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{33}
+  \item {mostrarInformacionDispositivoBTLE}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{20}
+
+  \indexspace
+
+  \item {noadvFlags}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{34}
+
+  \indexspace
+
+  \item {obtenerTipoDeSensor}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{22}
+  \item {onCreate}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{22}
+  \item {onRequestPermissionsResult}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{22}
+
+  \indexspace
+
+  \item {prefijo}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{34}
+
+  \indexspace
+
+  \item {setDato}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{25}
+  \item {setId\_tipo}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{26}
+  \item {setId\_usuario}
+    \subitem {com.example.aplicacion\_3ro.Medicion}, \hyperpage{26}
+  \item {stringToBytes}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{38}
+  \item {stringToUUID}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{39}
+
+  \indexspace
+
+  \item {TramaIBeacon}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{28}
+  \item {txPower}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{34}
+
+  \indexspace
+
+  \item {uuid}
+    \subitem {com.example.aplicacion\_3ro.TramaIBeacon}, \hyperpage{34}
+  \item {uuidToHexString}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{39}
+  \item {uuidToString}
+    \subitem {com.example.aplicacion\_3ro.Utilidades}, \hyperpage{41}
+
+  \indexspace
+
+  \item {valor1}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{23}
+  \item {valor2}
+    \subitem {com.example.aplicacion\_3ro.MainActivity}, \hyperpage{23}
+
+\end{theindex}

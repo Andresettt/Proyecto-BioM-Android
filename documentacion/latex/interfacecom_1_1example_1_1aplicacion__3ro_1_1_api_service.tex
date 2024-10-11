@@ -1,0 +1,53 @@
+\doxysection{Referencia de la interface com.\+example.\+aplicacion\+\_\+3ro.\+Api\+Service}
+\hypertarget{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service}{}\label{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service}\index{com.example.aplicacion\_3ro.ApiService@{com.example.aplicacion\_3ro.ApiService}}
+
+
+Interfaz para definir las llamadas HTTP de la API.  
+
+
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+Call$<$ Void $>$ \mbox{\hyperlink{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service_ae6bbdaa3a2a2c16ce14dba99bf70aac9}{enviar\+Mediciones}} (@Body \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_medicion}{Medicion}} medicion)
+\begin{DoxyCompactList}\small\item\em Envía una medición al servidor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Interfaz para definir las llamadas HTTP de la API. 
+
+Esta interfaz define el método para enviar las mediciones al servidor utilizando una solicitud HTTP POST. Retrofit se encargará de crear la implementación de esta interfaz en tiempo de ejecución. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service_ae6bbdaa3a2a2c16ce14dba99bf70aac9}\index{com.example.aplicacion\_3ro.ApiService@{com.example.aplicacion\_3ro.ApiService}!enviarMediciones@{enviarMediciones}}
+\index{enviarMediciones@{enviarMediciones}!com.example.aplicacion\_3ro.ApiService@{com.example.aplicacion\_3ro.ApiService}}
+\doxysubsubsection{\texorpdfstring{enviarMediciones()}{enviarMediciones()}}
+{\footnotesize\ttfamily \label{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service_ae6bbdaa3a2a2c16ce14dba99bf70aac9} 
+Call$<$ Void $>$ com.\+example.\+aplicacion\+\_\+3ro.\+Api\+Service.\+enviar\+Mediciones (\begin{DoxyParamCaption}\item[{@Body \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_medicion}{Medicion}}}]{medicion}{}\end{DoxyParamCaption})}
+
+
+
+Envía una medición al servidor. 
+
+Este método realiza una solicitud POST al endpoint "{}/mediciones"{} para enviar los datos de una medición al servidor.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em medicion} & El objeto de tipo \doxylink{classcom_1_1example_1_1aplicacion__3ro_1_1_medicion}{Medicion} que contiene los datos a enviar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Call$<$\+Void$>$ Objeto Call de Retrofit que representa la solicitud HTTP. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service_ae6bbdaa3a2a2c16ce14dba99bf70aac9_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentación de esta interface está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+BTLEAlumnos2021/\+Aplicacion\+\_\+3ro/app/src/main/java/com/example/aplicacion\+\_\+3ro/\mbox{\hyperlink{_api_service_8java}{Api\+Service.\+java}}\end{DoxyCompactItemize}

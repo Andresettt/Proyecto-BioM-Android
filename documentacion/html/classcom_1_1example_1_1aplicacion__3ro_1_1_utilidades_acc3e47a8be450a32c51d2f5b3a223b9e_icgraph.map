@@ -1,0 +1,10 @@
+<map id="com.example.aplicacion_3ro.Utilidades.bytesToLong" name="com.example.aplicacion_3ro.Utilidades.bytesToLong">
+<area shape="rect" id="Node000001" title="Convierte un arreglo de bytes a un long." alt="" coords="745,13,932,56"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#a902d54feca45a0bee15f29fa08afb66a" title="Convierte un string UUID a un objeto UUID." alt="" coords="505,13,697,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="729,37,698,37,698,32,729,32"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#adb3146497ef39d8ff386e4535a19ecc3" title="Método invocado al pulsar el botón para buscar un dispositivo BTLE específico." alt="" coords="5,5,218,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="490,31,457,29,266,29,218,31,218,26,266,24,457,24,490,25"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#ad0e00e0a3529295e25309094fd42b0d0" title="Inicia un escaneo Bluetooth LE para buscar un dispositivo con un UUID específico." alt="" coords="266,39,457,97"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="490,53,458,57,457,52,489,48"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="250,56,218,52,218,46,251,51"/>
+</map>

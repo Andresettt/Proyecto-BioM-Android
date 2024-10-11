@@ -1,0 +1,315 @@
+\doxysection{Referencia de la clase com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades}
+\hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades}{}\label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+
+
+Clase de utilidades para conversiones de datos y manipulación de UUIDs.  
+
+
+\doxysubsubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_ad58877b95ab64cf7651a095008643019}{string\+To\+Bytes}} (String texto)
+\begin{DoxyCompactList}\small\item\em Convierte un String a un arreglo de bytes. \end{DoxyCompactList}\item 
+static UUID \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a902d54feca45a0bee15f29fa08afb66a}{string\+To\+UUID}} (String uuid)
+\begin{DoxyCompactList}\small\item\em Convierte un string UUID a un objeto UUID. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a853264dd1b562c7226bb2d9b07110d97}{uuid\+To\+String}} (UUID uuid)
+\begin{DoxyCompactList}\small\item\em Convierte un objeto UUID a String. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a3218c1b923dab50ff6e769c9694cff81}{uuid\+To\+Hex\+String}} (UUID uuid)
+\begin{DoxyCompactList}\small\item\em Convierte un UUID en su representación hexadecimal. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_af15c1fe4858b4ebcfd1df6b679bc73a0}{bytes\+To\+String}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\begin{DoxyCompactList}\small\item\em Convierte un arreglo de bytes en String. \end{DoxyCompactList}\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a145453c662ae7d6843ca29102150bfd8}{dos\+Long\+To\+Bytes}} (long mas\+Significativos, long menos\+Significativos)
+\begin{DoxyCompactList}\small\item\em Convierte dos valores long en un arreglo de bytes. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a37674dd9a227ec0e2b7cd43984dd667f}{bytes\+To\+Int}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\begin{DoxyCompactList}\small\item\em Convierte un arreglo de bytes a un entero. \end{DoxyCompactList}\item 
+static long \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_acc3e47a8be450a32c51d2f5b3a223b9e}{bytes\+To\+Long}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\begin{DoxyCompactList}\small\item\em Convierte un arreglo de bytes a un long. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a74ebf448e2937f0f42c558c20cd754c9}{bytes\+To\+Int\+OK}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\begin{DoxyCompactList}\small\item\em Convierte un arreglo de bytes a entero (int) manejando los casos de signo. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a9000b2f234bfb011edad69d2a491e565}{bytes\+To\+Hex\+String}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\begin{DoxyCompactList}\small\item\em Convierte un arreglo de bytes a un String en formato hexadecimal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Clase de utilidades para conversiones de datos y manipulación de UUIDs. 
+
+Esta clase incluye métodos para convertir cadenas a bytes, UUIDs a cadenas, conversión de bytes a tipos primitivos como int y long, y otros tipos de conversiones útiles. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a9000b2f234bfb011edad69d2a491e565}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!bytesToHexString@{bytesToHexString}}
+\index{bytesToHexString@{bytesToHexString}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{bytesToHexString()}{bytesToHexString()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a9000b2f234bfb011edad69d2a491e565} 
+static String com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+bytes\+To\+Hex\+String (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un arreglo de bytes a un String en formato hexadecimal. 
+
+Cada byte se convierte a dos caracteres hexadecimales.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em bytes} & Arreglo de bytes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String en formato hexadecimal con los bytes separados por "{}\+:"{}. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a9000b2f234bfb011edad69d2a491e565_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a37674dd9a227ec0e2b7cd43984dd667f}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!bytesToInt@{bytesToInt}}
+\index{bytesToInt@{bytesToInt}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{bytesToInt()}{bytesToInt()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a37674dd9a227ec0e2b7cd43984dd667f} 
+static int com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+bytes\+To\+Int (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un arreglo de bytes a un entero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em bytes} & Arreglo de bytes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Entero equivalente al arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a37674dd9a227ec0e2b7cd43984dd667f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a74ebf448e2937f0f42c558c20cd754c9}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!bytesToIntOK@{bytesToIntOK}}
+\index{bytesToIntOK@{bytesToIntOK}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{bytesToIntOK()}{bytesToIntOK()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a74ebf448e2937f0f42c558c20cd754c9} 
+static int com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+bytes\+To\+Int\+OK (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un arreglo de bytes a entero (int) manejando los casos de signo. 
+
+Este método convierte bytes a entero utilizando el concepto de "{}complemento a 2"{} para manejar signos negativos.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em bytes} & Arreglo de bytes a convertir. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+El valor entero resultante. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Error} & Si el arreglo de bytes es mayor a 4 bytes (tamaño de int). \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_acc3e47a8be450a32c51d2f5b3a223b9e}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!bytesToLong@{bytesToLong}}
+\index{bytesToLong@{bytesToLong}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{bytesToLong()}{bytesToLong()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_acc3e47a8be450a32c51d2f5b3a223b9e} 
+static long com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+bytes\+To\+Long (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un arreglo de bytes a un long. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em bytes} & Arreglo de bytes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Long equivalente al arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_acc3e47a8be450a32c51d2f5b3a223b9e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_af15c1fe4858b4ebcfd1df6b679bc73a0}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!bytesToString@{bytesToString}}
+\index{bytesToString@{bytesToString}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{bytesToString()}{bytesToString()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_af15c1fe4858b4ebcfd1df6b679bc73a0} 
+static String com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+bytes\+To\+String (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un arreglo de bytes en String. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em bytes} & Arreglo de bytes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String equivalente al arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_af15c1fe4858b4ebcfd1df6b679bc73a0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a145453c662ae7d6843ca29102150bfd8}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!dosLongToBytes@{dosLongToBytes}}
+\index{dosLongToBytes@{dosLongToBytes}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{dosLongToBytes()}{dosLongToBytes()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a145453c662ae7d6843ca29102150bfd8} 
+static byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+dos\+Long\+To\+Bytes (\begin{DoxyParamCaption}\item[{long}]{mas\+Significativos}{, }\item[{long}]{menos\+Significativos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte dos valores long en un arreglo de bytes. 
+
+Este método combina dos valores long (más y menos significativos) en un arreglo de bytes.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em mas\+Significativos} & Bits más significativos del UUID. \\
+\hline
+{\em menos\+Significativos} & Bits menos significativos del UUID. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un arreglo de bytes que combina los dos long. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a145453c662ae7d6843ca29102150bfd8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_ad58877b95ab64cf7651a095008643019}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!stringToBytes@{stringToBytes}}
+\index{stringToBytes@{stringToBytes}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{stringToBytes()}{stringToBytes()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_ad58877b95ab64cf7651a095008643019} 
+static byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+string\+To\+Bytes (\begin{DoxyParamCaption}\item[{String}]{texto}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un String a un arreglo de bytes. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em texto} & El texto a convertir. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un arreglo de bytes que representa el texto. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a902d54feca45a0bee15f29fa08afb66a}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!stringToUUID@{stringToUUID}}
+\index{stringToUUID@{stringToUUID}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{stringToUUID()}{stringToUUID()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a902d54feca45a0bee15f29fa08afb66a} 
+static UUID com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+string\+To\+UUID (\begin{DoxyParamCaption}\item[{String}]{uuid}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un string UUID a un objeto UUID. 
+
+El string debe tener una longitud de 16 caracteres.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em uuid} & String con la representación del UUID. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+El objeto UUID correspondiente. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Error} & Si el string no tiene 16 caracteres. \\
+\hline
+\end{DoxyExceptions}
+Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a902d54feca45a0bee15f29fa08afb66a_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a902d54feca45a0bee15f29fa08afb66a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a3218c1b923dab50ff6e769c9694cff81}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!uuidToHexString@{uuidToHexString}}
+\index{uuidToHexString@{uuidToHexString}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{uuidToHexString()}{uuidToHexString()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a3218c1b923dab50ff6e769c9694cff81} 
+static String com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+uuid\+To\+Hex\+String (\begin{DoxyParamCaption}\item[{UUID}]{uuid}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un UUID en su representación hexadecimal. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em uuid} & El objeto UUID a convertir. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una representación en hexadecimal del UUID como String. 
+\end{DoxyReturn}
+Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a3218c1b923dab50ff6e769c9694cff81_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a853264dd1b562c7226bb2d9b07110d97}\index{com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}!uuidToString@{uuidToString}}
+\index{uuidToString@{uuidToString}!com.example.aplicacion\_3ro.Utilidades@{com.example.aplicacion\_3ro.Utilidades}}
+\doxysubsubsection{\texorpdfstring{uuidToString()}{uuidToString()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a853264dd1b562c7226bb2d9b07110d97} 
+static String com.\+example.\+aplicacion\+\_\+3ro.\+Utilidades.\+uuid\+To\+String (\begin{DoxyParamCaption}\item[{UUID}]{uuid}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Convierte un objeto UUID a String. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em uuid} & El objeto UUID a convertir. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una representación en String del UUID. 
+\end{DoxyReturn}
+Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades_a853264dd1b562c7226bb2d9b07110d97_cgraph}
+\end{center}
+\end{figure}
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+BTLEAlumnos2021/\+Aplicacion\+\_\+3ro/app/src/main/java/com/example/aplicacion\+\_\+3ro/\mbox{\hyperlink{_utilidades_8java}{Utilidades.\+java}}\end{DoxyCompactItemize}

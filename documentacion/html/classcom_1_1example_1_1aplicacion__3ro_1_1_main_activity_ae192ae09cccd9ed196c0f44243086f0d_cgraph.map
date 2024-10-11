@@ -1,0 +1,31 @@
+<map id="com.example.aplicacion_3ro.MainActivity.buscarTodosLosDispositivosBTLE" name="com.example.aplicacion_3ro.MainActivity.buscarTodosLosDispositivosBTLE">
+<area shape="rect" id="Node000001" title="Inicia la búsqueda de todos los dispositivos Bluetooth LE." alt="" coords="5,405,205,464"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#a6353b9687cd2492ddbc64577b2d93ae6" title="Muestra la información detallada del dispositivo Bluetooth LE detectado." alt="" coords="253,405,490,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,432,237,432,237,437,205,437"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#a9000b2f234bfb011edad69d2a491e565" title="Convierte un arreglo de bytes a un String en formato hexadecimal." alt="" coords="546,5,762,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="375,404,390,334,419,241,440,191,467,143,498,97,536,58,540,55,544,59,540,62,503,101,471,145,445,193,424,242,395,335,380,405"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#a37674dd9a227ec0e2b7cd43984dd667f" title="Convierte un arreglo de bytes a un entero." alt="" coords="568,72,741,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="378,404,396,345,428,270,449,230,474,192,503,156,536,125,552,114,555,119,540,129,507,160,479,195,454,233,433,272,401,347,383,406"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#af15c1fe4858b4ebcfd1df6b679bc73a0" title="Convierte un arreglo de bytes en String." alt="" coords="558,139,750,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="383,404,405,357,439,300,483,241,508,214,536,191,543,187,546,191,540,195,512,218,487,245,443,302,410,359,387,406"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#a3f155376b61c8bdd0e20d36a2f501514" title="Obtiene el valor de las banderas de publicidad (advFlags)." alt="" coords="548,205,760,248"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="391,403,451,330,491,291,537,258,546,253,548,257,539,262,495,295,455,334,395,406"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#a8ae7b05ac935c0b51be24c5269f5f8f0" title="Obtiene el encabezado de publicidad (advHeader)." alt="" coords="543,272,765,315"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="409,403,468,363,537,324,552,318,554,323,539,329,471,367,412,407"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#a62005bf2b05edeaeee14d2f1f0a368fd" title="Obtiene el identificador de la compañía." alt="" coords="540,339,768,381"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="484,402,555,383,557,388,486,407"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#abf891d14ba2a516f785b1391302d8625" title="Obtiene la longitud de iBeacon." alt="" coords="552,405,756,464"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="490,432,536,432,536,437,490,437"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#a0bec8adc97e0f73783fe075f69d9279a" title="Obtiene el tipo de iBeacon." alt="" coords="538,488,770,531"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="486,462,557,481,555,486,484,467"/>
+<area shape="rect" id="Node000011" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#ad221f93ec7f8cf4a0d2a65673d0f5584" title="Obtiene el valor del campo major." alt="" coords="560,555,749,597"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="412,462,471,502,539,540,554,546,552,551,537,545,468,507,409,467"/>
+<area shape="rect" id="Node000012" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#ae735da8f77dd1e62ff113310b4f7090b" title="Obtiene el valor del campo minor." alt="" coords="560,621,749,664"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="395,463,455,536,495,574,539,607,548,612,546,617,537,612,491,578,451,539,391,466"/>
+<area shape="rect" id="Node000013" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#a67744080465810ef6fe879886a1d7fe1" title="Obtiene el prefijo de la trama." alt="" coords="557,688,751,731"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="387,463,410,510,443,567,487,625,512,651,540,674,546,678,543,683,536,678,508,655,483,628,439,570,405,512,383,466"/>
+<area shape="rect" id="Node000014" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#a7bfb412e2483f9e2663b5ad5e78f4aee" title="Obtiene el valor de la potencia de transmisión (TxPower)." alt="" coords="550,755,759,797"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="383,463,401,522,433,597,454,636,479,675,507,710,540,741,545,745,542,749,536,745,503,713,474,678,449,639,428,599,396,524,378,465"/>
+<area shape="rect" id="Node000015" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon.html#ab595b7ac95c77d25006ef6995bf945c5" title="Obtiene el UUID de la trama." alt="" coords="558,821,750,864"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="380,464,395,534,424,627,445,676,471,724,503,769,540,807,547,813,544,817,536,811,498,772,467,727,440,678,419,629,390,536,375,465"/>
+</map>

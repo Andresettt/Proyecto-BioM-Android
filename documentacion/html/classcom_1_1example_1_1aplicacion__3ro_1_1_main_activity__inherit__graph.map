@@ -1,0 +1,5 @@
+<map id="com.example.aplicacion_3ro.MainActivity" name="com.example.aplicacion_3ro.MainActivity">
+<area shape="rect" id="Node000001" title="Clase principal de la aplicación que maneja la interfaz de usuario y la interacción con Bluetooth LE." alt="" coords="5,80,167,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="19,5,153,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,48,89,80,83,80,83,48"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.example.aplicacion_3ro.Utilidades.dosLongToBytes" name="com.example.aplicacion_3ro.Utilidades.dosLongToBytes">
+<area shape="rect" id="Node000001" title="Convierte dos valores long en un arreglo de bytes." alt="" coords="262,39,471,81"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#a3218c1b923dab50ff6e769c9694cff81" title="Convierte un UUID en su representación hexadecimal." alt="" coords="5,5,214,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,47,214,43,215,38,247,42"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#a853264dd1b562c7226bb2d9b07110d97" title="Convierte un objeto UUID a String." alt="" coords="17,72,202,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,78,202,84,202,79,246,73"/>
+</map>

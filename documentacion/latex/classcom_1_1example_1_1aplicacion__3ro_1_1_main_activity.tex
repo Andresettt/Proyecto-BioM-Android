@@ -1,0 +1,421 @@
+\doxysection{Referencia de la clase com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity}
+\hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity}{}\label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+
+
+Clase principal de la aplicación que maneja la interfaz de usuario y la interacción con Bluetooth LE.  
+
+
+
+
+Diagrama de herencia de com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_adb3146497ef39d8ff386e4535a19ecc3}{boton\+Buscar\+Nuestro\+Dispositivo\+BTLEPulsado}} (View v)
+\begin{DoxyCompactList}\small\item\em Método invocado al pulsar el botón para buscar un dispositivo BTLE específico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad67f3392998dc46e153a9e4e2767f190}{boton\+Buscar\+Dispositivos\+BTLEPulsado}} (View v)
+\begin{DoxyCompactList}\small\item\em Método invocado al pulsar el botón para buscar todos los dispositivos BTLE. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_aa64291198f0ba0a3c248e2ed0de32c2e}{boton\+Detener\+Busqueda\+Dispositivos\+BTLEPulsado}} (View v)
+\begin{DoxyCompactList}\small\item\em Método invocado al pulsar el botón para detener la búsqueda de dispositivos BTLE. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ab8e81c12ab436e7808914cc9fe911eb0}{on\+Request\+Permissions\+Result}} (int request\+Code, String\mbox{[}$\,$\mbox{]} permissions, int\mbox{[}$\,$\mbox{]} grant\+Results)
+\begin{DoxyCompactList}\small\item\em Método que gestiona los resultados de la solicitud de permisos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_af0c15fccfb99e6477319b71567d428a4}{valor1}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_aabdc70e921f6659feb46d3cd577510fc}{valor2}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a7ade8e7ea26c61dccafd3b5ec2db46d7}{on\+Create}} (Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em Método llamado al crear la actividad. Inicializa la vista y configura el escáner Bluetooth. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6ef172a62e1b66ee7abd5ffb4aee9a88}{enviar\+Datos\+Al\+Servidor}} (final int id\+Tipo, final int valor, final int id\+Usuario)
+\begin{DoxyCompactList}\small\item\em Envía los datos al servidor utilizando Retrofit. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ae192ae09cccd9ed196c0f44243086f0d}{buscar\+Todos\+Los\+Dispositivos\+BTLE}} ()
+\begin{DoxyCompactList}\small\item\em Inicia la búsqueda de todos los dispositivos Bluetooth LE. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6353b9687cd2492ddbc64577b2d93ae6}{mostrar\+Informacion\+Dispositivo\+BTLE}} (Scan\+Result resultado)
+\begin{DoxyCompactList}\small\item\em Muestra la información detallada del dispositivo Bluetooth LE detectado. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a46095c0e6d6182071459e75a13bcaec6}{obtener\+Tipo\+De\+Sensor}} (int major\+Value)
+\begin{DoxyCompactList}\small\item\em Determina el tipo de sensor basándose en el valor de \textquotesingle{}major\textquotesingle{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad0e00e0a3529295e25309094fd42b0d0}{buscar\+Este\+Dispositivo\+BTLE}} (final UUID dispositivo\+Buscado)
+\begin{DoxyCompactList}\small\item\em Inicia un escaneo Bluetooth LE para buscar un dispositivo con un UUID específico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad1bf417946b409422b6529e8f9e5d843}{detener\+Busqueda\+Dispositivos\+BTLE}} ()
+\begin{DoxyCompactList}\small\item\em Detiene la búsqueda de dispositivos BTLE en curso. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a68d297144794066fe2c014c76356b68a}{inicializar\+Blue\+Tooth}} ()
+\begin{DoxyCompactList}\small\item\em Inicializa el adaptador Bluetooth y solicita permisos necesarios. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+Bluetooth\+Le\+Scanner \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a57e4026978d8ab1b54a9973241e121dd}{el\+Escanner}}
+\item 
+Scan\+Callback \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_afd4f685128227de623114771c077dd9c}{callback\+Del\+Escaneo}} = null
+\item 
+\mbox{\hyperlink{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service}{Api\+Service}} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_abb5e58da903c116a33380e0cff17c4d6}{api\+Service}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos estáticos privados}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a8d552061f721a49988d566f446f4a156}{ETIQUETA\+\_\+\+LOG}} = "{}$>$$>$$>$$>$"{}
+\item 
+static final int \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_af1f3e875f66d726d243a3e636e8ddcb9}{CODIGO\+\_\+\+PETICION\+\_\+\+PERMISOS}} = 11223344
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Clase principal de la aplicación que maneja la interfaz de usuario y la interacción con Bluetooth LE. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad67f3392998dc46e153a9e4e2767f190}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!botonBuscarDispositivosBTLEPulsado@{botonBuscarDispositivosBTLEPulsado}}
+\index{botonBuscarDispositivosBTLEPulsado@{botonBuscarDispositivosBTLEPulsado}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{botonBuscarDispositivosBTLEPulsado()}{botonBuscarDispositivosBTLEPulsado()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad67f3392998dc46e153a9e4e2767f190} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+boton\+Buscar\+Dispositivos\+BTLEPulsado (\begin{DoxyParamCaption}\item[{View}]{v}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método invocado al pulsar el botón para buscar todos los dispositivos BTLE. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em v} & Vista que representa el botón pulsado. \\
+\hline
+\end{DoxyParams}
+Este método inicia una búsqueda para todos los dispositivos Bluetooth LE cercanos llamando a la función correspondiente. Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad67f3392998dc46e153a9e4e2767f190_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_adb3146497ef39d8ff386e4535a19ecc3}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!botonBuscarNuestroDispositivoBTLEPulsado@{botonBuscarNuestroDispositivoBTLEPulsado}}
+\index{botonBuscarNuestroDispositivoBTLEPulsado@{botonBuscarNuestroDispositivoBTLEPulsado}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{botonBuscarNuestroDispositivoBTLEPulsado()}{botonBuscarNuestroDispositivoBTLEPulsado()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_adb3146497ef39d8ff386e4535a19ecc3} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+boton\+Buscar\+Nuestro\+Dispositivo\+BTLEPulsado (\begin{DoxyParamCaption}\item[{View}]{v}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método invocado al pulsar el botón para buscar un dispositivo BTLE específico. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em v} & Vista que representa el botón pulsado. \\
+\hline
+\end{DoxyParams}
+Este método utiliza un UUID predefinido y llama a la función para iniciar la búsqueda de dicho dispositivo mediante Bluetooth LE. Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_adb3146497ef39d8ff386e4535a19ecc3_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_aa64291198f0ba0a3c248e2ed0de32c2e}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!botonDetenerBusquedaDispositivosBTLEPulsado@{botonDetenerBusquedaDispositivosBTLEPulsado}}
+\index{botonDetenerBusquedaDispositivosBTLEPulsado@{botonDetenerBusquedaDispositivosBTLEPulsado}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{botonDetenerBusquedaDispositivosBTLEPulsado()}{botonDetenerBusquedaDispositivosBTLEPulsado()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_aa64291198f0ba0a3c248e2ed0de32c2e} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+boton\+Detener\+Busqueda\+Dispositivos\+BTLEPulsado (\begin{DoxyParamCaption}\item[{View}]{v}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método invocado al pulsar el botón para detener la búsqueda de dispositivos BTLE. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em v} & Vista que representa el botón pulsado. \\
+\hline
+\end{DoxyParams}
+Detiene la búsqueda de dispositivos Bluetooth LE en curso. Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_aa64291198f0ba0a3c248e2ed0de32c2e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad0e00e0a3529295e25309094fd42b0d0}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!buscarEsteDispositivoBTLE@{buscarEsteDispositivoBTLE}}
+\index{buscarEsteDispositivoBTLE@{buscarEsteDispositivoBTLE}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{buscarEsteDispositivoBTLE()}{buscarEsteDispositivoBTLE()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad0e00e0a3529295e25309094fd42b0d0} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+buscar\+Este\+Dispositivo\+BTLE (\begin{DoxyParamCaption}\item[{final UUID}]{dispositivo\+Buscado}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Inicia un escaneo Bluetooth LE para buscar un dispositivo con un UUID específico. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dispositivo\+Buscado} & UUID del dispositivo Bluetooth LE que se está buscando. \\
+\hline
+\end{DoxyParams}
+Esta función busca un dispositivo Bluetooth LE cuyo UUID coincida con el proporcionado. Si se encuentra el dispositivo, se extrae información adicional como el valor major y minor, se determina el tipo de sensor y se actualizan los valores de temperatura u ozono en la interfaz. Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad0e00e0a3529295e25309094fd42b0d0_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad0e00e0a3529295e25309094fd42b0d0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ae192ae09cccd9ed196c0f44243086f0d}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!buscarTodosLosDispositivosBTLE@{buscarTodosLosDispositivosBTLE}}
+\index{buscarTodosLosDispositivosBTLE@{buscarTodosLosDispositivosBTLE}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{buscarTodosLosDispositivosBTLE()}{buscarTodosLosDispositivosBTLE()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ae192ae09cccd9ed196c0f44243086f0d} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+buscar\+Todos\+Los\+Dispositivos\+BTLE (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Inicia la búsqueda de todos los dispositivos Bluetooth LE. 
+
+Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ae192ae09cccd9ed196c0f44243086f0d_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ae192ae09cccd9ed196c0f44243086f0d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad1bf417946b409422b6529e8f9e5d843}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!detenerBusquedaDispositivosBTLE@{detenerBusquedaDispositivosBTLE}}
+\index{detenerBusquedaDispositivosBTLE@{detenerBusquedaDispositivosBTLE}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{detenerBusquedaDispositivosBTLE()}{detenerBusquedaDispositivosBTLE()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad1bf417946b409422b6529e8f9e5d843} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+detener\+Busqueda\+Dispositivos\+BTLE (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Detiene la búsqueda de dispositivos BTLE en curso. 
+
+Si la búsqueda está activa, detiene el escaneo y desactiva el callback asociado. Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ad1bf417946b409422b6529e8f9e5d843_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6ef172a62e1b66ee7abd5ffb4aee9a88}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!enviarDatosAlServidor@{enviarDatosAlServidor}}
+\index{enviarDatosAlServidor@{enviarDatosAlServidor}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{enviarDatosAlServidor()}{enviarDatosAlServidor()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6ef172a62e1b66ee7abd5ffb4aee9a88} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+enviar\+Datos\+Al\+Servidor (\begin{DoxyParamCaption}\item[{final int}]{id\+Tipo}{, }\item[{final int}]{valor}{, }\item[{final int}]{id\+Usuario}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Envía los datos al servidor utilizando Retrofit. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id\+Tipo} & Tipo de medición. \\
+\hline
+{\em valor} & Valor de la medición. \\
+\hline
+{\em id\+Usuario} & ID del usuario. \\
+\hline
+\end{DoxyParams}
+Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6ef172a62e1b66ee7abd5ffb4aee9a88_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6ef172a62e1b66ee7abd5ffb4aee9a88_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a68d297144794066fe2c014c76356b68a}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!inicializarBlueTooth@{inicializarBlueTooth}}
+\index{inicializarBlueTooth@{inicializarBlueTooth}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{inicializarBlueTooth()}{inicializarBlueTooth()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a68d297144794066fe2c014c76356b68a} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+inicializar\+Blue\+Tooth (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Inicializa el adaptador Bluetooth y solicita permisos necesarios. 
+
+Este método obtiene el adaptador Bluetooth del dispositivo, habilita el Bluetooth si no está habilitado, y solicita los permisos necesarios dependiendo de la versión de Android para realizar escaneos de dispositivos Bluetooth LE. 
+
+En versiones de Android 12 y superiores, se solicitan permisos para escanear y conectar dispositivos Bluetooth cercanos. En versiones anteriores, se solicitan permisos para Bluetooth y localización. \Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6353b9687cd2492ddbc64577b2d93ae6}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!mostrarInformacionDispositivoBTLE@{mostrarInformacionDispositivoBTLE}}
+\index{mostrarInformacionDispositivoBTLE@{mostrarInformacionDispositivoBTLE}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{mostrarInformacionDispositivoBTLE()}{mostrarInformacionDispositivoBTLE()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6353b9687cd2492ddbc64577b2d93ae6} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+mostrar\+Informacion\+Dispositivo\+BTLE (\begin{DoxyParamCaption}\item[{Scan\+Result}]{resultado}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Muestra la información detallada del dispositivo Bluetooth LE detectado. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em resultado} & Resultado del escaneo del dispositivo Bluetooth LE. \\
+\hline
+\end{DoxyParams}
+Gráfico de llamadas de esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6353b9687cd2492ddbc64577b2d93ae6_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a6353b9687cd2492ddbc64577b2d93ae6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a46095c0e6d6182071459e75a13bcaec6}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!obtenerTipoDeSensor@{obtenerTipoDeSensor}}
+\index{obtenerTipoDeSensor@{obtenerTipoDeSensor}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{obtenerTipoDeSensor()}{obtenerTipoDeSensor()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a46095c0e6d6182071459e75a13bcaec6} 
+int com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+obtener\+Tipo\+De\+Sensor (\begin{DoxyParamCaption}\item[{int}]{major\+Value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Determina el tipo de sensor basándose en el valor de \textquotesingle{}major\textquotesingle{}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em major\+Value} & Valor \textquotesingle{}major\textquotesingle{} extraído del i\+Beacon. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+2 si el sensor es de ozono, 1 si es de temperatura, -\/1 si es desconocido. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a46095c0e6d6182071459e75a13bcaec6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a7ade8e7ea26c61dccafd3b5ec2db46d7}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!onCreate@{onCreate}}
+\index{onCreate@{onCreate}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{onCreate()}{onCreate()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a7ade8e7ea26c61dccafd3b5ec2db46d7} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+on\+Create (\begin{DoxyParamCaption}\item[{Bundle}]{saved\+Instance\+State}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Método llamado al crear la actividad. Inicializa la vista y configura el escáner Bluetooth. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em saved\+Instance\+State} & Estado previamente guardado de la actividad. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ab8e81c12ab436e7808914cc9fe911eb0}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!onRequestPermissionsResult@{onRequestPermissionsResult}}
+\index{onRequestPermissionsResult@{onRequestPermissionsResult}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{onRequestPermissionsResult()}{onRequestPermissionsResult()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_ab8e81c12ab436e7808914cc9fe911eb0} 
+void com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+on\+Request\+Permissions\+Result (\begin{DoxyParamCaption}\item[{int}]{request\+Code}{, }\item[{String\mbox{[}$\,$\mbox{]}}]{permissions}{, }\item[{int\mbox{[}$\,$\mbox{]}}]{grant\+Results}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método que gestiona los resultados de la solicitud de permisos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em request\+Code} & Código que identifica la solicitud de permisos. \\
+\hline
+{\em permissions} & Arreglo con los nombres de los permisos solicitados. \\
+\hline
+{\em grant\+Results} & Arreglo con los resultados de los permisos (concedidos o denegados). \\
+\hline
+\end{DoxyParams}
+Este método es llamado cuando el usuario concede o deniega los permisos solicitados. Si los permisos son concedidos, permite continuar con la inicialización o el escaneo. 
+
+\doxysubsection{Documentación de datos miembro}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_abb5e58da903c116a33380e0cff17c4d6}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!apiService@{apiService}}
+\index{apiService@{apiService}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{apiService}{apiService}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_abb5e58da903c116a33380e0cff17c4d6} 
+\mbox{\hyperlink{interfacecom_1_1example_1_1aplicacion__3ro_1_1_api_service}{Api\+Service}} com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+api\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+Servicio API para enviar datos al servidor. \Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_afd4f685128227de623114771c077dd9c}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!callbackDelEscaneo@{callbackDelEscaneo}}
+\index{callbackDelEscaneo@{callbackDelEscaneo}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{callbackDelEscaneo}{callbackDelEscaneo}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_afd4f685128227de623114771c077dd9c} 
+Scan\+Callback com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+callback\+Del\+Escaneo = null\hspace{0.3cm}{\ttfamily [private]}}
+
+Callback utilizado para manejar los resultados del escaneo BLE. \Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_af1f3e875f66d726d243a3e636e8ddcb9}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!CODIGO\_PETICION\_PERMISOS@{CODIGO\_PETICION\_PERMISOS}}
+\index{CODIGO\_PETICION\_PERMISOS@{CODIGO\_PETICION\_PERMISOS}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{CODIGO\_PETICION\_PERMISOS}{CODIGO\_PETICION\_PERMISOS}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_af1f3e875f66d726d243a3e636e8ddcb9} 
+final int com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+CODIGO\+\_\+\+PETICION\+\_\+\+PERMISOS = 11223344\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Código de petición para los permisos requeridos. \Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a57e4026978d8ab1b54a9973241e121dd}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!elEscanner@{elEscanner}}
+\index{elEscanner@{elEscanner}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{elEscanner}{elEscanner}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a57e4026978d8ab1b54a9973241e121dd} 
+Bluetooth\+Le\+Scanner com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+el\+Escanner\hspace{0.3cm}{\ttfamily [private]}}
+
+Escáner Bluetooth Low Energy (BLE) utilizado para buscar dispositivos. \Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a8d552061f721a49988d566f446f4a156}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!ETIQUETA\_LOG@{ETIQUETA\_LOG}}
+\index{ETIQUETA\_LOG@{ETIQUETA\_LOG}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{ETIQUETA\_LOG}{ETIQUETA\_LOG}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_a8d552061f721a49988d566f446f4a156} 
+final String com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+ETIQUETA\+\_\+\+LOG = "{}$>$$>$$>$$>$"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Etiqueta de log para el seguimiento de eventos. \Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_af0c15fccfb99e6477319b71567d428a4}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!valor1@{valor1}}
+\index{valor1@{valor1}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{valor1}{valor1}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_af0c15fccfb99e6477319b71567d428a4} 
+Text\+View com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+valor1}
+
+Text\+View para mostrar el valor de la temperatura. \Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_aabdc70e921f6659feb46d3cd577510fc}\index{com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}!valor2@{valor2}}
+\index{valor2@{valor2}!com.example.aplicacion\_3ro.MainActivity@{com.example.aplicacion\_3ro.MainActivity}}
+\doxysubsubsection{\texorpdfstring{valor2}{valor2}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity_aabdc70e921f6659feb46d3cd577510fc} 
+Text\+View com.\+example.\+aplicacion\+\_\+3ro.\+Main\+Activity.\+valor2}
+
+Text\+View para mostrar el valor del ozono. 
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+BTLEAlumnos2021/\+Aplicacion\+\_\+3ro/app/src/main/java/com/example/aplicacion\+\_\+3ro/\mbox{\hyperlink{_main_activity_8java}{Main\+Activity.\+java}}\end{DoxyCompactItemize}

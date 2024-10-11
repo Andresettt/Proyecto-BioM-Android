@@ -1,0 +1,5 @@
+<map id="com.example.aplicacion_3ro.MainActivity.buscarTodosLosDispositivosBTLE" name="com.example.aplicacion_3ro.MainActivity.buscarTodosLosDispositivosBTLE">
+<area shape="rect" id="Node000001" title="Inicia la búsqueda de todos los dispositivos Bluetooth LE." alt="" coords="252,5,451,64"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#ad67f3392998dc46e153a9e4e2767f190" title="Método invocado al pulsar el botón para buscar todos los dispositivos BTLE." alt="" coords="5,5,204,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,37,204,37,204,32,236,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="com.example.aplicacion_3ro.MainActivity.detenerBusquedaDispositivosBTLE" name="com.example.aplicacion_3ro.MainActivity.detenerBusquedaDispositivosBTLE">
+<area shape="rect" id="Node000001" title="Detiene la búsqueda de dispositivos BTLE en curso." alt="" coords="285,5,511,64"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#aa64291198f0ba0a3c248e2ed0de32c2e" title="Método invocado al pulsar el botón para detener la búsqueda de dispositivos BTLE." alt="" coords="5,5,237,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,37,237,37,237,32,269,32"/>
+</map>

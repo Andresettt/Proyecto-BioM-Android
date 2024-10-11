@@ -1,0 +1,104 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Índice de espacios de nombres}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Lista de espacios de nombres}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Índice jerárquico}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Jerarquía de clases}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Índice de clases}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lista de clases}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Índice de archivos}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Lista de archivos}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Documentación de espacios de nombres}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Paquete com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}example.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Documentación de clases}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Referencia de la interface com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}example.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Api\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service}{11}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Descripción detallada}{11}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Documentación de funciones miembro}{11}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}enviarMediciones()}{11}{subsubsection.6.1.2.1}%
+\contentsline {section}{\numberline {6.2}Referencia de la clase com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}example.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Activity}{12}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Descripción detallada}{14}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Documentación de funciones miembro}{14}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}botonBuscarDispositivosBTLEPulsado()}{14}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}botonBuscarNuestroDispositivoBTLEPulsado()}{14}{subsubsection.6.2.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.3}botonDetenerBusquedaDispositivosBTLEPulsado()}{15}{subsubsection.6.2.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.2.4}buscarEsteDispositivoBTLE()}{16}{subsubsection.6.2.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.2.5}buscarTodosLosDispositivosBTLE()}{17}{subsubsection.6.2.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.2.6}detenerBusquedaDispositivosBTLE()}{18}{subsubsection.6.2.2.6}%
+\contentsline {subsubsection}{\numberline {6.2.2.7}enviarDatosAlServidor()}{19}{subsubsection.6.2.2.7}%
+\contentsline {subsubsection}{\numberline {6.2.2.8}inicializarBlueTooth()}{20}{subsubsection.6.2.2.8}%
+\contentsline {subsubsection}{\numberline {6.2.2.9}mostrarInformacionDispositivoBTLE()}{20}{subsubsection.6.2.2.9}%
+\contentsline {subsubsection}{\numberline {6.2.2.10}obtenerTipoDeSensor()}{22}{subsubsection.6.2.2.10}%
+\contentsline {subsubsection}{\numberline {6.2.2.11}onCreate()}{22}{subsubsection.6.2.2.11}%
+\contentsline {subsubsection}{\numberline {6.2.2.12}onRequestPermissionsResult()}{22}{subsubsection.6.2.2.12}%
+\contentsline {subsection}{\numberline {6.2.3}Documentación de datos miembro}{23}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}apiService}{23}{subsubsection.6.2.3.1}%
+\contentsline {subsubsection}{\numberline {6.2.3.2}callbackDelEscaneo}{23}{subsubsection.6.2.3.2}%
+\contentsline {subsubsection}{\numberline {6.2.3.3}CODIGO\_PETICION\_PERMISOS}{23}{subsubsection.6.2.3.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.4}elEscanner}{23}{subsubsection.6.2.3.4}%
+\contentsline {subsubsection}{\numberline {6.2.3.5}ETIQUETA\_LOG}{23}{subsubsection.6.2.3.5}%
+\contentsline {subsubsection}{\numberline {6.2.3.6}valor1}{23}{subsubsection.6.2.3.6}%
+\contentsline {subsubsection}{\numberline {6.2.3.7}valor2}{24}{subsubsection.6.2.3.7}%
+\contentsline {section}{\numberline {6.3}Referencia de la clase com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}example.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Medicion}{24}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Descripción detallada}{24}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Documentación de constructores y destructores}{25}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}Medicion()}{25}{subsubsection.6.3.2.1}%
+\contentsline {subsection}{\numberline {6.3.3}Documentación de funciones miembro}{25}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}getDato()}{25}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}getId\_tipo()}{25}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}getId\_usuario()}{25}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}setDato()}{25}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}setId\_tipo()}{26}{subsubsection.6.3.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.3.6}setId\_usuario()}{26}{subsubsection.6.3.3.6}%
+\contentsline {subsection}{\numberline {6.3.4}Documentación de datos miembro}{26}{subsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.4.1}dato}{26}{subsubsection.6.3.4.1}%
+\contentsline {subsubsection}{\numberline {6.3.4.2}id\_tipo}{26}{subsubsection.6.3.4.2}%
+\contentsline {subsubsection}{\numberline {6.3.4.3}id\_usuario}{27}{subsubsection.6.3.4.3}%
+\contentsline {section}{\numberline {6.4}Referencia de la clase com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}example.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trama\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IBeacon}{27}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Descripción detallada}{28}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Documentación de constructores y destructores}{28}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}TramaIBeacon()}{28}{subsubsection.6.4.2.1}%
+\contentsline {subsection}{\numberline {6.4.3}Documentación de funciones miembro}{29}{subsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}getAdvFlags()}{29}{subsubsection.6.4.3.1}%
+\contentsline {subsubsection}{\numberline {6.4.3.2}getAdvHeader()}{29}{subsubsection.6.4.3.2}%
+\contentsline {subsubsection}{\numberline {6.4.3.3}getCompanyID()}{30}{subsubsection.6.4.3.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.4}getiBeaconLength()}{30}{subsubsection.6.4.3.4}%
+\contentsline {subsubsection}{\numberline {6.4.3.5}getiBeaconType()}{30}{subsubsection.6.4.3.5}%
+\contentsline {subsubsection}{\numberline {6.4.3.6}getLosBytes()}{31}{subsubsection.6.4.3.6}%
+\contentsline {subsubsection}{\numberline {6.4.3.7}getMajor()}{31}{subsubsection.6.4.3.7}%
+\contentsline {subsubsection}{\numberline {6.4.3.8}getMinor()}{31}{subsubsection.6.4.3.8}%
+\contentsline {subsubsection}{\numberline {6.4.3.9}getPrefijo()}{32}{subsubsection.6.4.3.9}%
+\contentsline {subsubsection}{\numberline {6.4.3.10}getTxPower()}{32}{subsubsection.6.4.3.10}%
+\contentsline {subsubsection}{\numberline {6.4.3.11}getUUID()}{32}{subsubsection.6.4.3.11}%
+\contentsline {subsection}{\numberline {6.4.4}Documentación de datos miembro}{33}{subsection.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.4.4.1}advFlags}{33}{subsubsection.6.4.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.4.2}advHeader}{33}{subsubsection.6.4.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.4.3}companyID}{33}{subsubsection.6.4.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4.4}iBeaconLength}{33}{subsubsection.6.4.4.4}%
+\contentsline {subsubsection}{\numberline {6.4.4.5}iBeaconType}{33}{subsubsection.6.4.4.5}%
+\contentsline {subsubsection}{\numberline {6.4.4.6}losBytes}{33}{subsubsection.6.4.4.6}%
+\contentsline {subsubsection}{\numberline {6.4.4.7}major}{33}{subsubsection.6.4.4.7}%
+\contentsline {subsubsection}{\numberline {6.4.4.8}minor}{34}{subsubsection.6.4.4.8}%
+\contentsline {subsubsection}{\numberline {6.4.4.9}noadvFlags}{34}{subsubsection.6.4.4.9}%
+\contentsline {subsubsection}{\numberline {6.4.4.10}prefijo}{34}{subsubsection.6.4.4.10}%
+\contentsline {subsubsection}{\numberline {6.4.4.11}txPower}{34}{subsubsection.6.4.4.11}%
+\contentsline {subsubsection}{\numberline {6.4.4.12}uuid}{34}{subsubsection.6.4.4.12}%
+\contentsline {section}{\numberline {6.5}Referencia de la clase com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}example.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utilidades}{34}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Descripción detallada}{35}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Documentación de funciones miembro}{35}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}bytesToHexString()}{35}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}bytesToInt()}{36}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}bytesToIntOK()}{36}{subsubsection.6.5.2.3}%
+\contentsline {subsubsection}{\numberline {6.5.2.4}bytesToLong()}{37}{subsubsection.6.5.2.4}%
+\contentsline {subsubsection}{\numberline {6.5.2.5}bytesToString()}{37}{subsubsection.6.5.2.5}%
+\contentsline {subsubsection}{\numberline {6.5.2.6}dosLongToBytes()}{38}{subsubsection.6.5.2.6}%
+\contentsline {subsubsection}{\numberline {6.5.2.7}stringToBytes()}{38}{subsubsection.6.5.2.7}%
+\contentsline {subsubsection}{\numberline {6.5.2.8}stringToUUID()}{39}{subsubsection.6.5.2.8}%
+\contentsline {subsubsection}{\numberline {6.5.2.9}uuidToHexString()}{40}{subsubsection.6.5.2.9}%
+\contentsline {subsubsection}{\numberline {6.5.2.10}uuidToString()}{41}{subsubsection.6.5.2.10}%
+\contentsline {chapter}{\numberline {7}Documentación de archivos}{43}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Referencia del archivo BTLEAlumnos2021/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/app/src/main/java/com/example/aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Api\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service.java}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Referencia del archivo BTLEAlumnos2021/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/app/src/main/java/com/example/aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Activity.java}{44}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Referencia del archivo BTLEAlumnos2021/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/app/src/main/java/com/example/aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Medicion.java}{44}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Referencia del archivo BTLEAlumnos2021/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/app/src/main/java/com/example/aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trama\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IBeacon.java}{45}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Referencia del archivo BTLEAlumnos2021/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/app/src/main/java/com/example/aplicacion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}3ro/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utilidades.java}{45}{section.7.5}%
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{47}{section*.63}%

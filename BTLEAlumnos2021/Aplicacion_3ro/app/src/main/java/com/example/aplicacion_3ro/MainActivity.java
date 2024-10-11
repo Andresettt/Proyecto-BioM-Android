@@ -338,7 +338,7 @@ public class MainActivity extends AppCompatActivity {
     public void botonBuscarNuestroDispositivoBTLEPulsado(View v) {
         Log.d(ETIQUETA_LOG, "boton nuestro dispositivo BTLE Pulsado");
         // Utiliza un UUID válido en lugar de una cadena arbitraria
-        UUID uuidBuscado = Utilidades.stringToUUID("EQUIPO-JAVIER-3A"); // Reemplaza con tu UUID
+        UUID uuidBuscado = Utilidades.stringToUUID("EQUIPO-ANDRES-3A"); // Reemplaza con tu UUID
         this.buscarEsteDispositivoBTLE(uuidBuscado);
     } // botonBuscarNuestroDispositivoBTLEPulsado()
 

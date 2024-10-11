@@ -1,0 +1,438 @@
+\doxysection{Referencia de la clase com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon}
+\hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon}{}\label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+
+
+Clase que representa y procesa una trama i\+Beacon.  
+
+
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a240c4029f7ff64e578cc858c6708afbb}{Trama\+IBeacon}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\begin{DoxyCompactList}\small\item\em Constructor que recibe un arreglo de bytes y procesa la trama i\+Beacon. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a67744080465810ef6fe879886a1d7fe1}{get\+Prefijo}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el prefijo de la trama. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ab595b7ac95c77d25006ef6995bf945c5}{get\+UUID}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el UUID de la trama. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ad221f93ec7f8cf4a0d2a65673d0f5584}{get\+Major}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el valor del campo major. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ae735da8f77dd1e62ff113310b4f7090b}{get\+Minor}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el valor del campo minor. \end{DoxyCompactList}\item 
+byte \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a7bfb412e2483f9e2663b5ad5e78f4aee}{get\+Tx\+Power}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el valor de la potencia de transmisión (Tx\+Power). \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aeddc414e09461c13a1303232083244e7}{get\+Los\+Bytes}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el arreglo de bytes de la trama completa. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a3f155376b61c8bdd0e20d36a2f501514}{get\+Adv\+Flags}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el valor de las banderas de publicidad (adv\+Flags). \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a8ae7b05ac935c0b51be24c5269f5f8f0}{get\+Adv\+Header}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el encabezado de publicidad (adv\+Header). \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a62005bf2b05edeaeee14d2f1f0a368fd}{get\+Company\+ID}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el identificador de la compañía. \end{DoxyCompactList}\item 
+byte \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a0bec8adc97e0f73783fe075f69d9279a}{geti\+Beacon\+Type}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el tipo de i\+Beacon. \end{DoxyCompactList}\item 
+byte \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_abf891d14ba2a516f785b1391302d8625}{geti\+Beacon\+Length}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene la longitud de i\+Beacon. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aafb6577f72e08ccc478167ccffd76e6d}{prefijo}} = null
+\begin{DoxyCompactList}\small\item\em Prefijo de 9 bytes (o 6 bytes si no incluye adv\+Flags). \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5ae4b1f0d24de4c4e12f372288a18243}{uuid}} = null
+\begin{DoxyCompactList}\small\item\em UUID de 16 bytes del i\+Beacon. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aed80ee3ad9ba3681052c033e7084094c}{major}} = null
+\begin{DoxyCompactList}\small\item\em Campo major de 2 bytes. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aefdc3a8d7c4b3e646a6149fd25352d0e}{minor}} = null
+\begin{DoxyCompactList}\small\item\em Campo minor de 2 bytes. \end{DoxyCompactList}\item 
+byte \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a8e5980e02789c41e0f93b6d8fb06faa9}{tx\+Power}} = 0
+\begin{DoxyCompactList}\small\item\em Valor de la potencia de transmisión (Tx\+Power) de 1 byte. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a83959dfa881f5e66c541470cf05676d3}{los\+Bytes}}
+\begin{DoxyCompactList}\small\item\em Arreglo de bytes que representa la trama completa recibida. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5588031d39a00f6bf3d1cdbfc0e414c7}{adv\+Flags}} = null
+\begin{DoxyCompactList}\small\item\em Bandera de publicidad de 3 bytes (solo si está presente). \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5cc8f8bee1030e114a16943f03cf25a7}{adv\+Header}} = null
+\begin{DoxyCompactList}\small\item\em Cabecera de la publicidad (advertisement header) de 2 bytes. \end{DoxyCompactList}\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ac5284870a55d01ff9460fc409ca80566}{company\+ID}} = new byte\mbox{[}2\mbox{]}
+\begin{DoxyCompactList}\small\item\em Identificador de la compañía de 2 bytes. \end{DoxyCompactList}\item 
+byte \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a66e259b45524d1b640d0126122528f0b}{i\+Beacon\+Type}} = 0
+\begin{DoxyCompactList}\small\item\em Tipo de i\+Beacon de 1 byte. \end{DoxyCompactList}\item 
+byte \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ade2f3501f45be878aec96112ea228133}{i\+Beacon\+Length}} = 0
+\begin{DoxyCompactList}\small\item\em Longitud del i\+Beacon de 1 byte. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ab5d3f58d2988f29a4065f79df5443d60}{noadv\+Flags}}
+\begin{DoxyCompactList}\small\item\em Indica si los adv\+Flags están presentes en la trama. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Clase que representa y procesa una trama i\+Beacon. 
+
+Esta clase se encarga de interpretar los datos de una trama i\+Beacon, extrayendo información como el UUID, el major, el minor, y la potencia de transmisión (Tx\+Power), entre otros campos. 
+
+\doxysubsection{Documentación de constructores y destructores}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a240c4029f7ff64e578cc858c6708afbb}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!TramaIBeacon@{TramaIBeacon}}
+\index{TramaIBeacon@{TramaIBeacon}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{TramaIBeacon()}{TramaIBeacon()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a240c4029f7ff64e578cc858c6708afbb} 
+com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+Trama\+IBeacon (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor que recibe un arreglo de bytes y procesa la trama i\+Beacon. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em bytes} & Arreglo de bytes que representa la trama recibida del i\+Beacon. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a3f155376b61c8bdd0e20d36a2f501514}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getAdvFlags@{getAdvFlags}}
+\index{getAdvFlags@{getAdvFlags}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getAdvFlags()}{getAdvFlags()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a3f155376b61c8bdd0e20d36a2f501514} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Adv\+Flags (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el valor de las banderas de publicidad (adv\+Flags). 
+
+\begin{DoxyReturn}{Devuelve}
+El valor de adv\+Flags en un arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a3f155376b61c8bdd0e20d36a2f501514_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a8ae7b05ac935c0b51be24c5269f5f8f0}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getAdvHeader@{getAdvHeader}}
+\index{getAdvHeader@{getAdvHeader}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getAdvHeader()}{getAdvHeader()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a8ae7b05ac935c0b51be24c5269f5f8f0} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Adv\+Header (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el encabezado de publicidad (adv\+Header). 
+
+\begin{DoxyReturn}{Devuelve}
+El encabezado de publicidad en un arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a8ae7b05ac935c0b51be24c5269f5f8f0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a62005bf2b05edeaeee14d2f1f0a368fd}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getCompanyID@{getCompanyID}}
+\index{getCompanyID@{getCompanyID}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getCompanyID()}{getCompanyID()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a62005bf2b05edeaeee14d2f1f0a368fd} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Company\+ID (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el identificador de la compañía. 
+
+\begin{DoxyReturn}{Devuelve}
+El identificador de la compañía en un arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a62005bf2b05edeaeee14d2f1f0a368fd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_abf891d14ba2a516f785b1391302d8625}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getiBeaconLength@{getiBeaconLength}}
+\index{getiBeaconLength@{getiBeaconLength}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getiBeaconLength()}{getiBeaconLength()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_abf891d14ba2a516f785b1391302d8625} 
+byte com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+geti\+Beacon\+Length (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene la longitud de i\+Beacon. 
+
+\begin{DoxyReturn}{Devuelve}
+La longitud de i\+Beacon como un byte. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_abf891d14ba2a516f785b1391302d8625_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a0bec8adc97e0f73783fe075f69d9279a}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getiBeaconType@{getiBeaconType}}
+\index{getiBeaconType@{getiBeaconType}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getiBeaconType()}{getiBeaconType()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a0bec8adc97e0f73783fe075f69d9279a} 
+byte com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+geti\+Beacon\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el tipo de i\+Beacon. 
+
+\begin{DoxyReturn}{Devuelve}
+El tipo de i\+Beacon como un byte. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a0bec8adc97e0f73783fe075f69d9279a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aeddc414e09461c13a1303232083244e7}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getLosBytes@{getLosBytes}}
+\index{getLosBytes@{getLosBytes}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getLosBytes()}{getLosBytes()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aeddc414e09461c13a1303232083244e7} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Los\+Bytes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el arreglo de bytes de la trama completa. 
+
+\begin{DoxyReturn}{Devuelve}
+El arreglo de bytes de la trama completa. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ad221f93ec7f8cf4a0d2a65673d0f5584}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getMajor@{getMajor}}
+\index{getMajor@{getMajor}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getMajor()}{getMajor()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ad221f93ec7f8cf4a0d2a65673d0f5584} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Major (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el valor del campo major. 
+
+\begin{DoxyReturn}{Devuelve}
+El valor major en un arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ad221f93ec7f8cf4a0d2a65673d0f5584_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ae735da8f77dd1e62ff113310b4f7090b}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getMinor@{getMinor}}
+\index{getMinor@{getMinor}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getMinor()}{getMinor()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ae735da8f77dd1e62ff113310b4f7090b} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Minor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el valor del campo minor. 
+
+\begin{DoxyReturn}{Devuelve}
+El valor minor en un arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ae735da8f77dd1e62ff113310b4f7090b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a67744080465810ef6fe879886a1d7fe1}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getPrefijo@{getPrefijo}}
+\index{getPrefijo@{getPrefijo}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getPrefijo()}{getPrefijo()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a67744080465810ef6fe879886a1d7fe1} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Prefijo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el prefijo de la trama. 
+
+\begin{DoxyReturn}{Devuelve}
+El prefijo en un arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a67744080465810ef6fe879886a1d7fe1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a7bfb412e2483f9e2663b5ad5e78f4aee}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getTxPower@{getTxPower}}
+\index{getTxPower@{getTxPower}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getTxPower()}{getTxPower()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a7bfb412e2483f9e2663b5ad5e78f4aee} 
+byte com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+Tx\+Power (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el valor de la potencia de transmisión (Tx\+Power). 
+
+\begin{DoxyReturn}{Devuelve}
+El valor de Tx\+Power como un byte. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a7bfb412e2483f9e2663b5ad5e78f4aee_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ab595b7ac95c77d25006ef6995bf945c5}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!getUUID@{getUUID}}
+\index{getUUID@{getUUID}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{getUUID()}{getUUID()}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ab595b7ac95c77d25006ef6995bf945c5} 
+byte\mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+get\+UUID (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el UUID de la trama. 
+
+\begin{DoxyReturn}{Devuelve}
+El UUID en un arreglo de bytes. 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ab595b7ac95c77d25006ef6995bf945c5_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentación de datos miembro}
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5588031d39a00f6bf3d1cdbfc0e414c7}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!advFlags@{advFlags}}
+\index{advFlags@{advFlags}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{advFlags}{advFlags}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5588031d39a00f6bf3d1cdbfc0e414c7} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+adv\+Flags = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Bandera de publicidad de 3 bytes (solo si está presente). 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5cc8f8bee1030e114a16943f03cf25a7}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!advHeader@{advHeader}}
+\index{advHeader@{advHeader}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{advHeader}{advHeader}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5cc8f8bee1030e114a16943f03cf25a7} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+adv\+Header = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cabecera de la publicidad (advertisement header) de 2 bytes. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ac5284870a55d01ff9460fc409ca80566}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!companyID@{companyID}}
+\index{companyID@{companyID}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{companyID}{companyID}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ac5284870a55d01ff9460fc409ca80566} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+company\+ID = new byte\mbox{[}2\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Identificador de la compañía de 2 bytes. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ade2f3501f45be878aec96112ea228133}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!iBeaconLength@{iBeaconLength}}
+\index{iBeaconLength@{iBeaconLength}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{iBeaconLength}{iBeaconLength}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ade2f3501f45be878aec96112ea228133} 
+byte com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+i\+Beacon\+Length = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Longitud del i\+Beacon de 1 byte. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a66e259b45524d1b640d0126122528f0b}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!iBeaconType@{iBeaconType}}
+\index{iBeaconType@{iBeaconType}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{iBeaconType}{iBeaconType}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a66e259b45524d1b640d0126122528f0b} 
+byte com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+i\+Beacon\+Type = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tipo de i\+Beacon de 1 byte. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a83959dfa881f5e66c541470cf05676d3}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!losBytes@{losBytes}}
+\index{losBytes@{losBytes}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{losBytes}{losBytes}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a83959dfa881f5e66c541470cf05676d3} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+los\+Bytes\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Arreglo de bytes que representa la trama completa recibida. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aed80ee3ad9ba3681052c033e7084094c}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!major@{major}}
+\index{major@{major}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{major}{major}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aed80ee3ad9ba3681052c033e7084094c} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+major = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Campo major de 2 bytes. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aefdc3a8d7c4b3e646a6149fd25352d0e}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!minor@{minor}}
+\index{minor@{minor}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{minor}{minor}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aefdc3a8d7c4b3e646a6149fd25352d0e} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+minor = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Campo minor de 2 bytes. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ab5d3f58d2988f29a4065f79df5443d60}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!noadvFlags@{noadvFlags}}
+\index{noadvFlags@{noadvFlags}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{noadvFlags}{noadvFlags}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_ab5d3f58d2988f29a4065f79df5443d60} 
+boolean com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+noadv\+Flags\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indica si los adv\+Flags están presentes en la trama. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aafb6577f72e08ccc478167ccffd76e6d}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!prefijo@{prefijo}}
+\index{prefijo@{prefijo}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{prefijo}{prefijo}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_aafb6577f72e08ccc478167ccffd76e6d} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+prefijo = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Prefijo de 9 bytes (o 6 bytes si no incluye adv\+Flags). 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a8e5980e02789c41e0f93b6d8fb06faa9}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!txPower@{txPower}}
+\index{txPower@{txPower}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{txPower}{txPower}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a8e5980e02789c41e0f93b6d8fb06faa9} 
+byte com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+tx\+Power = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valor de la potencia de transmisión (Tx\+Power) de 1 byte. 
+
+\Hypertarget{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5ae4b1f0d24de4c4e12f372288a18243}\index{com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}!uuid@{uuid}}
+\index{uuid@{uuid}!com.example.aplicacion\_3ro.TramaIBeacon@{com.example.aplicacion\_3ro.TramaIBeacon}}
+\doxysubsubsection{\texorpdfstring{uuid}{uuid}}
+{\footnotesize\ttfamily \label{classcom_1_1example_1_1aplicacion__3ro_1_1_trama_i_beacon_a5ae4b1f0d24de4c4e12f372288a18243} 
+byte \mbox{[}$\,$\mbox{]} com.\+example.\+aplicacion\+\_\+3ro.\+Trama\+IBeacon.\+uuid = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+UUID de 16 bytes del i\+Beacon. 
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+BTLEAlumnos2021/\+Aplicacion\+\_\+3ro/app/src/main/java/com/example/aplicacion\+\_\+3ro/\mbox{\hyperlink{_trama_i_beacon_8java}{Trama\+IBeacon.\+java}}\end{DoxyCompactItemize}

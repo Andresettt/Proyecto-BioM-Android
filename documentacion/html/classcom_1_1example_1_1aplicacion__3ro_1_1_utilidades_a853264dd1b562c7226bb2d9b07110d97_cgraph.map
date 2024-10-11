@@ -1,0 +1,7 @@
+<map id="com.example.aplicacion_3ro.Utilidades.uuidToString" name="com.example.aplicacion_3ro.Utilidades.uuidToString">
+<area shape="rect" id="Node000001" title="Convierte un objeto UUID a String." alt="" coords="5,39,190,81"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#af15c1fe4858b4ebcfd1df6b679bc73a0" title="Convierte un arreglo de bytes en String." alt="" coords="246,5,438,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,45,231,39,231,44,190,50"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_utilidades.html#a145453c662ae7d6843ca29102150bfd8" title="Convierte dos valores long en un arreglo de bytes." alt="" coords="238,72,447,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,70,222,74,222,80,190,75"/>
+</map>

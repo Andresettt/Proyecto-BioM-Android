@@ -1,0 +1,9 @@
+<map id="com.example.aplicacion_3ro.ApiService.enviarMediciones" name="com.example.aplicacion_3ro.ApiService.enviarMediciones">
+<area shape="rect" id="Node000001" title="Envía una medición al servidor." alt="" coords="748,13,967,56"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#a6ef172a62e1b66ee7abd5ffb4aee9a88" title="Envía los datos al servidor utilizando Retrofit." alt="" coords="505,5,700,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="733,37,701,37,701,32,733,32"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#ad0e00e0a3529295e25309094fd42b0d0" title="Inicia un escaneo Bluetooth LE para buscar un dispositivo con un UUID específico." alt="" coords="266,5,457,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="490,37,458,37,458,32,490,32"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1example_1_1aplicacion__3ro_1_1_main_activity.html#adb3146497ef39d8ff386e4535a19ecc3" title="Método invocado al pulsar el botón para buscar un dispositivo BTLE específico." alt="" coords="5,5,218,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="250,37,218,37,218,32,250,32"/>
+</map>
